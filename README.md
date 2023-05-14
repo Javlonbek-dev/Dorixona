@@ -1,14 +1,20 @@
 # Dorixona
 ### University for coursework
 ## Login Part
-![image](https://github.com/Javlonbek-dev/Dorixona/assets/95227460/d6ae97ba-157f-4969-8756-5592d2633db1)
+![image](https://github.com/Javlonbek-dev/Dorixona/assets/95227460/9fdbb96f-6de5-425b-9d34-9e85a24565ae)
+
 ## Menu
-![image](https://github.com/Javlonbek-dev/Dorixona/assets/95227460/687d9d6c-7f3e-4c9e-a029-f9609e8343a0)
+![image](https://github.com/Javlonbek-dev/Dorixona/assets/95227460/756021f6-d385-484a-b45b-f9b230f5ea22)
+
 ## Dorilar
-![image](https://github.com/Javlonbek-dev/Dorixona/assets/95227460/29e3c448-1c98-4bfb-81c9-5baa76fc6fa0)
+![image](https://github.com/Javlonbek-dev/Dorixona/assets/95227460/f7bb9068-1022-45ca-88e9-60f97f6831e2)
+
 ## Firma 
-![image](https://github.com/Javlonbek-dev/Dorixona/assets/95227460/d8b55c11-c0c5-4e8b-a3f2-49cc8abdb885)
+![image](https://github.com/Javlonbek-dev/Dorixona/assets/95227460/b6638917-ab8c-44de-9702-679a607c7fb0)
+
 ## Dorixona
-![image](https://github.com/Javlonbek-dev/Dorixona/assets/95227460/e768bb36-0405-49ef-8625-ed4a28927d62)
+![image](https://github.com/Javlonbek-dev/Dorixona/assets/95227460/742bd577-6a02-4154-9bf4-af1a6ff78a4b)
+
 ## Bimor
-![image](https://github.com/Javlonbek-dev/Dorixona/assets/95227460/5cb9acc2-f4a0-4951-a9cb-d6f14a670c94)
+![image](https://github.com/Javlonbek-dev/Dorixona/assets/95227460/a9d1632a-7201-4db8-98d1-d0b7efc209c8)
+
