@@ -54,6 +54,11 @@
             textBox8 = new TextBox();
             textBox9 = new TextBox();
             textBox10 = new TextBox();
+            label6 = new Label();
+            label7 = new Label();
+            label8 = new Label();
+            label9 = new Label();
+            label10 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -264,7 +269,7 @@
             // 
             textBox7.Location = new Point(159, 238);
             textBox7.Name = "textBox7";
-            textBox7.Size = new Size(125, 27);
+            textBox7.Size = new Size(131, 27);
             textBox7.TabIndex = 18;
             // 
             // textBox8
@@ -288,6 +293,56 @@
             textBox10.Size = new Size(125, 27);
             textBox10.TabIndex = 21;
             // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.BackColor = Color.Pink;
+            label6.Location = new Point(22, 215);
+            label6.Name = "label6";
+            label6.Size = new Size(87, 20);
+            label6.TabIndex = 22;
+            label6.Text = "Dorixona Id";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.BackColor = Color.Pink;
+            label7.Location = new Point(173, 215);
+            label7.Name = "label7";
+            label7.Size = new Size(111, 20);
+            label7.TabIndex = 23;
+            label7.Text = "Dorixona Nomi";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.BackColor = Color.Pink;
+            label8.Location = new Point(330, 215);
+            label8.Name = "label8";
+            label8.Size = new Size(53, 20);
+            label8.TabIndex = 24;
+            label8.Text = "Manzil";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.BackColor = Color.Pink;
+            label9.Location = new Point(484, 215);
+            label9.Name = "label9";
+            label9.Size = new Size(105, 20);
+            label9.TabIndex = 25;
+            label9.Text = "Telefon raqam";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.BackColor = Color.Pink;
+            label10.Location = new Point(654, 215);
+            label10.Name = "label10";
+            label10.Size = new Size(128, 20);
+            label10.TabIndex = 26;
+            label10.Text = "Boshqaruvchi Ismi";
+            // 
             // Dorixona
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -295,6 +350,11 @@
             BackgroundImage = Properties.Resources.Bemor;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(811, 473);
+            Controls.Add(label10);
+            Controls.Add(label9);
+            Controls.Add(label8);
+            Controls.Add(label7);
+            Controls.Add(label6);
             Controls.Add(textBox10);
             Controls.Add(textBox9);
             Controls.Add(textBox8);
@@ -352,5 +412,10 @@
         private TextBox textBox8;
         private TextBox textBox9;
         private TextBox textBox10;
+        private Label label6;
+        private Label label7;
+        private Label label8;
+        private Label label9;
+        private Label label10;
     }
 }

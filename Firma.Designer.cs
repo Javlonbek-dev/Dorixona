@@ -51,6 +51,10 @@
             textBox3 = new TextBox();
             textBox4 = new TextBox();
             button2 = new Button();
+            label5 = new Label();
+            label6 = new Label();
+            label7 = new Label();
+            label8 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -244,7 +248,7 @@
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(508, 226);
+            textBox4.Location = new Point(538, 226);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(125, 27);
             textBox4.TabIndex = 18;
@@ -261,6 +265,46 @@
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.BackColor = Color.MediumSpringGreen;
+            label5.Location = new Point(59, 197);
+            label5.Name = "label5";
+            label5.Size = new Size(63, 20);
+            label5.TabIndex = 20;
+            label5.Text = "Firma Id";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.BackColor = Color.Aquamarine;
+            label6.Location = new Point(220, 197);
+            label6.Name = "label6";
+            label6.Size = new Size(87, 20);
+            label6.TabIndex = 21;
+            label6.Text = "Firma Nomi";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.BackColor = Color.Aquamarine;
+            label7.Location = new Point(392, 197);
+            label7.Name = "label7";
+            label7.Size = new Size(53, 20);
+            label7.TabIndex = 22;
+            label7.Text = "Manzil";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.BackColor = Color.Aquamarine;
+            label8.Location = new Point(566, 197);
+            label8.Name = "label8";
+            label8.Size = new Size(97, 20);
+            label8.TabIndex = 23;
+            label8.Text = "Telefon raqm";
+            // 
             // Firma
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -269,6 +313,10 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
+            Controls.Add(label8);
+            Controls.Add(label7);
+            Controls.Add(label6);
+            Controls.Add(label5);
             Controls.Add(button2);
             Controls.Add(textBox4);
             Controls.Add(textBox3);
@@ -318,5 +366,9 @@
         private TextBox textBox3;
         private TextBox textBox4;
         private Button button2;
+        private Label label5;
+        private Label label6;
+        private Label label7;
+        private Label label8;
     }
 }

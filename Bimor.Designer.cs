@@ -60,6 +60,10 @@
             textBox3 = new TextBox();
             textBox4 = new TextBox();
             search = new Button();
+            label1 = new Label();
+            label5 = new Label();
+            label6 = new Label();
+            label7 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -290,30 +294,30 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(50, 207);
+            textBox1.Location = new Point(77, 224);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(125, 27);
             textBox1.TabIndex = 13;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(206, 206);
+            textBox2.Location = new Point(233, 223);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(125, 27);
             textBox2.TabIndex = 14;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(365, 207);
+            textBox3.Location = new Point(392, 224);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(125, 27);
             textBox3.TabIndex = 15;
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(510, 206);
+            textBox4.Location = new Point(537, 223);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(125, 27);
+            textBox4.Size = new Size(150, 27);
             textBox4.TabIndex = 16;
             // 
             // search
@@ -326,6 +330,50 @@
             search.UseVisualStyleBackColor = true;
             search.Click += search_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = SystemColors.MenuHighlight;
+            label1.ForeColor = SystemColors.ButtonHighlight;
+            label1.Location = new Point(107, 200);
+            label1.Name = "label1";
+            label1.Size = new Size(70, 20);
+            label1.TabIndex = 18;
+            label1.Text = "Bemor Id";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.BackColor = SystemColors.MenuHighlight;
+            label5.ForeColor = SystemColors.ButtonHighlight;
+            label5.Location = new Point(269, 201);
+            label5.Name = "label5";
+            label5.Size = new Size(36, 20);
+            label5.TabIndex = 19;
+            label5.Text = "Ismi";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.BackColor = SystemColors.MenuHighlight;
+            label6.ForeColor = SystemColors.ButtonHighlight;
+            label6.Location = new Point(414, 201);
+            label6.Name = "label6";
+            label6.Size = new Size(57, 20);
+            label6.TabIndex = 20;
+            label6.Text = "Manzili";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.BackColor = SystemColors.MenuHighlight;
+            label7.ForeColor = SystemColors.ButtonHighlight;
+            label7.Location = new Point(556, 200);
+            label7.Name = "label7";
+            label7.Size = new Size(109, 20);
+            label7.TabIndex = 21;
+            label7.Text = "Telefon raqami";
+            // 
             // Bimor
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -333,6 +381,10 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
+            Controls.Add(label7);
+            Controls.Add(label6);
+            Controls.Add(label5);
+            Controls.Add(label1);
             Controls.Add(search);
             Controls.Add(textBox4);
             Controls.Add(textBox3);
@@ -392,5 +444,9 @@
         private TextBox textBox3;
         private TextBox textBox4;
         private Button search;
+        private Label label1;
+        private Label label5;
+        private Label label6;
+        private Label label7;
     }
 }
