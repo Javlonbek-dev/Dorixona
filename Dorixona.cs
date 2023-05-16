@@ -144,11 +144,11 @@ namespace Dorixona
 
         private void search_Click(object sender, EventArgs e)
         {
-            string Id= textBox6.Text.Trim();
+            string Id = textBox6.Text.Trim();
             string Nomi = textBox7.Text.Trim();
             string Manzil = textBox8.Text.Trim();
             string Tel = textBox9.Text.Trim();
-            string FikeName= textBox10.Text.Trim();
+            string FikeName = textBox10.Text.Trim();
 
             string query = "SELECT * FROM Dorixona WHERE 1=1";
             if (!string.IsNullOrEmpty(Id))
